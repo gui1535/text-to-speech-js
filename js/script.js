@@ -41,7 +41,7 @@ audioBtn.addEventListener("click", e => {
         }
         btnCancelarAudio.classList.remove('d-none')
         // sE O TEXTO FOR GRANDE, OPÇÃO PARA PAUSAR
-        if (textarea.value.length > 80) {
+        if (textarea.value.length > 10) {
             setInterval(() => {
                 if (!sintetizador.speaking && !estaFalando) {
                     estaFalando = true;
